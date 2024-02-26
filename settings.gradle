@@ -1,0 +1,31 @@
+pluginManagement {
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/public/' }
+        maven { url 'https://maven.aliyun.com/repository/google/'}
+        maven { url 'https://maven.aliyun.com/repository/jcenter/'}
+
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+        mavenLocal()
+        mavenCentral()
+
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/public/' }
+        maven { url 'https://maven.aliyun.com/repository/google/'}
+        maven { url 'https://maven.aliyun.com/repository/jcenter/'}
+
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+        mavenLocal()
+        mavenCentral()
+
+    }
+}
+rootProject.name = "JetpackComposeLearning"
+include ':app'
